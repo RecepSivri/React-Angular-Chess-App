@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="Move.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+
+
+
+
+
+</div>
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope) {
+
+        var table = new Array(8);
+        for (var i = 0; i < 8; i++) {
+            table[i] = new Array(8);
+        }
+        var divs = new Array(8);
+        for(var i=0;i<8;++i)
+        {
+            var div =document.createElement("DIV");
+            divs[i]=div;
+            for (var j = 0; j < 8; ++j)
+            {
+
+                table[i][j] = document.createElement("BUTTON");
+                table[i][j].style.width = "50px";
+                table[i][j].style.height = "50px";
+                table[i][j].style.borderRadius = "0px";
+                div.appendChild(table[i][j]);
+
+            }
+            div.style.padding="-2px";
+            document.body.appendChild(div);
+        }
+        table[0][2].innerHTML = '<img src="img//bishop.png" style="height:35px;width:35px"/>';
+        table[0][5].innerHTML = '<img src="img//bishop.png" style="height:35px;width:35px"/>';
+        table[0][1].innerHTML = '<img src="img//horse.png" style="height:35px;width:35px"/>';
+        table[0][6].innerHTML = '<img src="img//horse.png" style="height:35px;width:35px"/>';
+        table[0][3].innerHTML = '<img src="img//king.png" style="height:35px;width:35px"/>';
+        table[0][4].innerHTML = '<img src="img//queen.png" style="height:35px;width:35px"/>';
+        table[0][0].innerHTML = '<img src="img//rook.png" style="height:35px;width:35px"/>';
+        table[0][7].innerHTML = '<img src="img//rook.png" style="height:35px;width:35px"/>';
+
+        table[1][0].innerHTML = '<img src="img//pawn.png" style="height:25px;width:25px"/>';
+        table[1][1].innerHTML = '<img src="img//pawn.png" style="height:25px;width:25px"/>';
+        table[1][2].innerHTML = '<img src="img//pawn.png" style="height:25px;width:25px"/>';
+        table[1][3].innerHTML = '<img src="img//pawn.png" style="height:25px;width:25px"/>';
+        table[1][4].innerHTML = '<img src="img//pawn.png" style="height:25px;width:25px"/>';
+        table[1][5].innerHTML = '<img src="img//pawn.png" style="height:25px;width:25px"/>';
+        table[1][6].innerHTML = '<img src="img//pawn.png" style="height:25px;width:25px"/>';
+        table[1][7].innerHTML = '<img src="img//pawn.png" style="height:25px;width:25px"/>';
+
+        table[7][2].innerHTML = '<img src="img//wbishop.png" style="height:35px;width:35px"/>';
+        table[7][5].innerHTML = '<img src="img//wbishop.png" style="height:35px;width:35px"/>';
+        table[7][1].innerHTML = '<img src="img//whorse.png" style="height:35px;width:35px"/>';
+        table[7][6].innerHTML = '<img src="img//whorse.png" style="height:35px;width:35px"/>';
+        table[7][3].innerHTML = '<img src="img//wking.png" style="height:35px;width:35px"/>';
+        table[7][4].innerHTML = '<img src="img//wqueen.png" style="height:35px;width:35px"/>';
+        table[7][0].innerHTML = '<img src="img//wrook.png" style="height:35px;width:35px"/>';
+        table[7][7].innerHTML = '<img src="img//wrook.png" style="height:35px;width:35px"/>';
+
+        table[6][0].innerHTML = '<img src="img//wpawn.png" style="height:25px;width:25px"/>';
+        table[6][1].innerHTML = '<img src="img//wpawn.png" style="height:25px;width:25px"/>';
+        table[6][2].innerHTML = '<img src="img//wpawn.png" style="height:25px;width:25px"/>';
+        table[6][3].innerHTML = '<img src="img//wpawn.png" style="height:25px;width:25px"/>';
+        table[6][4].innerHTML = '<img src="img//wpawn.png" style="height:25px;width:25px"/>';
+        table[6][5].innerHTML = '<img src="img//wpawn.png" style="height:25px;width:25px"/>';
+        table[6][6].innerHTML = '<img src="img//wpawn.png" style="height:25px;width:25px"/>';
+        table[6][7].innerHTML = '<img src="img//wpawn.png" style="height:25px;width:25px"/>';
+
+
+        for(var j=0;j<8;++j)
+        {
+            var g = divs[j];
+            for (var i = 0, len = g.children.length; i < len; i++)
+            {
+
+                (function(index,index2){
+                    g.children[i].onclick = function(){
+                        move(this,index2,index);
+                    }
+                })(i,j);
+
+            }
+        }
+
+
+
+    });
+</script>
+</body>
+</html>
