@@ -58,6 +58,11 @@ function move(stackflag,stack,table,clickedButton,y, x) {
             stackflag.push(flag);
             queenMarkArea(x,y,stack,table)
         }
+        if(piece==="wking") {
+            flag=6;
+            stackflag.push(flag);
+            kingMarkArea(x,y,stack,table)
+        }
 
     }
 
@@ -74,6 +79,8 @@ function move(stackflag,stack,table,clickedButton,y, x) {
             bishopMove(stack,table)
         if(a===5)
             queenMove(stack,table)
+        if(a===6)
+            kingMove(stack,table)
 
     }
 
