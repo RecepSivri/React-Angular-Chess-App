@@ -10,7 +10,7 @@ function rookMarkArea(x,y,stack,table)
             table[k][x].style="height:75px;width:75px;border-color:blue;borderwidth:6px";
             --k;
         }
-        if(table[k][x].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='e'&&table[k][x].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='w')
+        if(k>=0&&table[k][x].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='e'&&table[k][x].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='w')
             table[k][x].style="height:75px;width:75px;border-color:blue;borderwidth:6px";
 
         var l=x-1;
@@ -19,7 +19,7 @@ function rookMarkArea(x,y,stack,table)
             table[y][l].style="height:75px;width:75px;border-color:blue;borderwidth:6px";
             --l;
         }
-        if(table[y][l].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='e'&&table[y][l].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='w')
+        if(l>=0&&table[y][l].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='e'&&table[y][l].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='w')
             table[y][l].style="height:75px;width:75px;border-color:blue;borderwidth:6px";
 
         var j=x+1;
@@ -28,7 +28,7 @@ function rookMarkArea(x,y,stack,table)
             table[y][j].style="height:75px;width:75px;border-color:blue;borderwidth:6px";
             ++j;
         }
-        if(table[y][j].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='e'&&table[y][j].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='w')
+        if(j<8&&table[y][j].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='e'&&table[y][j].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='w')
             table[y][j].style="height:75px;width:75px;border-color:blue;borderwidth:6px";
 
         var i=y+1;
@@ -37,7 +37,7 @@ function rookMarkArea(x,y,stack,table)
             table[i][x].style="height:75px;width:75px;border-color:blue;borderwidth:6px";
             ++i;
         }
-        if(table[i][x].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='e'&&table[i][x].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='w')
+        if(i<7&&table[i][x].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='e'&&table[i][x].innerHTML.toString().split("//")[1].split(".")[0].charAt(0)!=='w')
             table[i][x].style="height:75px;width:75px;border-color:blue;borderwidth:6px";
 
 }

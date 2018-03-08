@@ -43,6 +43,11 @@ function move(stackflag,stack,table,clickedButton,y, x) {
             stackflag.push(flag);
             rookMarkArea(x,y,stack,table)
         }
+        if(piece==="whorse") {
+            flag=3;
+            stackflag.push(flag);
+            horseMarkArea(x,y,stack,table)
+        }
 
     }
 
@@ -53,6 +58,9 @@ function move(stackflag,stack,table,clickedButton,y, x) {
             pawnMove(stack,table)
         if(a===2)
             rookMove(stack,table)
+        if(a===3)
+            horseMove(stack,table)
+
     }
 
 
