@@ -65,11 +65,5 @@ function horseMove(stack,table)
         table[oldCoor.Y][oldCoor.X].innerHTML='<img src="img//empty.png" style="height:35px;width:35px"/>';
         table[currCoor.Y][currCoor.X].innerHTML = '<img src="img//whorse.png" style="height:35px;width:35px"/>';
     }
-
-
-
-
-
-
-
+    
 }

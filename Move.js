@@ -48,6 +48,11 @@ function move(stackflag,stack,table,clickedButton,y, x) {
             stackflag.push(flag);
             horseMarkArea(x,y,stack,table)
         }
+        if(piece==="wbishop") {
+            flag=4;
+            stackflag.push(flag);
+            bishopMarkArea(x,y,stack,table)
+        }
 
     }
 
@@ -60,6 +65,8 @@ function move(stackflag,stack,table,clickedButton,y, x) {
             rookMove(stack,table)
         if(a===3)
             horseMove(stack,table)
+        if(a===4)
+            bishopMove(stack,table)
 
     }
 
