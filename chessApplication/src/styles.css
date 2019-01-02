@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.chessNavbar{
+  background-color: #297ace;
+}
+.headerTitle{
+  color: white;
+  font-size: 24px;
+  font-family: SansSerif;
+  margin-left:5px;
+}
+
+.headerIcon {
+  margin-top: -8px;
+}
+.loginBox{
+  background-color: white;
+}
