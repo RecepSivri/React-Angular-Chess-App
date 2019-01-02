@@ -5,6 +5,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
+import {HttpClientModule, HttpClient} from '@angular/common/http';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/language/', '.json');
+}
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +22,15 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
   ],
   imports: [
     BrowserModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
