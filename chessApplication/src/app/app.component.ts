@@ -2,6 +2,9 @@ import { Component, OnInit  } from '@angular/core';
 
 import {TranslateService} from "@ngx-translate/core";
 import * as $ from 'jquery';
+
+declare var jQuery:any;
+declare var $:any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
