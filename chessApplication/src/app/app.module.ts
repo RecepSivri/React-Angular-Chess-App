@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponentComponent } from './header-component/header-component.component';
-
 @NgModule({
   declarations: [
     AppComponent,
