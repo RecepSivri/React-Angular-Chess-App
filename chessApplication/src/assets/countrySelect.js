@@ -132,16 +132,9 @@
 			$("<div>", {
 				"class": "arrow"
 			}).appendTo(selectedFlag);
-			// country list contains: preferred countries, then divider, then all countries
 			this.countryList = $("<ul>", {
 				"class": "country-list v-hide"
 			}).appendTo(flagsContainer);
-			if (this.preferredCountries.length) {
-				this._appendListItems(this.preferredCountries, "preferred");
-				$("<li>", {
-					"class": "divider"
-				}).appendTo(this.countryList);
-			}
 			this._appendListItems(this.countries, "");
 			// Add the hidden input for the country code
 			this.countryCodeInput = $("#"+this.countryInput.attr("id")+"_code");
