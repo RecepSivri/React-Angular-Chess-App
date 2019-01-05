@@ -20,7 +20,7 @@
 		// Display only these countries
 		onlyCountries: [],
 		// The countries at the top of the list. Defaults to United States and United Kingdom
-		preferredCountries: [ "us", "gb" ]
+		preferredCountries: [ "tr", "us" ]
 	}, keys = {
 		UP: 38,
 		DOWN: 40,

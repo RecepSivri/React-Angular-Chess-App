@@ -72,31 +72,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chessApplication/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+            <state relative-caret-position="308">
+              <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countrySelect.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="countrySelect.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
+            <state relative-caret-position="141">
+              <caret line="127" column="19" lean-forward="false" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -146,9 +136,12 @@
       <file leaf-file-name="header-component.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="18" column="74" lean-forward="true" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-              <folding />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +153,7 @@
               <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-                <marker date="1546640937179" expanded="true" signature="495:527" ph="{...}" />
+                <marker date="1546716632999" expanded="true" signature="495:527" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -185,15 +178,18 @@
       <find>scrip</find>
       <find>scripts</find>
       <find>test</find>
-      <find>us</find>
       <find>input</find>
       <find>form-item</find>
       <find>country_selector</find>
-      <find>us&quot;</find>
       <find>countrySelect</find>
       <find>country-lis</find>
-      <find>country-list</find>
       <find>preferred</find>
+      <find>country-list</find>
+      <find>loginBox</find>
+      <find>us</find>
+      <find>us</find>
+      <find>us&quot;</find>
+      <find>selected</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,8 +219,8 @@
         <option value="$PROJECT_DIR$/chessApplication/angular-cli.json" />
         <option value="$PROJECT_DIR$/chessApplication/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html" />
-        <option value="$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js" />
         <option value="$PROJECT_DIR$/chessApplication/src/styles.css" />
+        <option value="$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js" />
       </list>
     </option>
   </component>
@@ -242,7 +238,7 @@
       <path value="$PROJECT_DIR$/chessApplication/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="67" />
     <option name="y" value="15" />
     <option name="width" value="1378" />
@@ -280,6 +276,21 @@
               <item name="AngulerJsChessApplication" type="462c0819:PsiDirectoryNode" />
               <item name="chessApplication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngulerJsChessApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngulerJsChessApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="chessApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngulerJsChessApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngulerJsChessApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="chessApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="header-component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AngulerJsChessApplication" type="b2602c69:ProjectViewProjectNode" />
@@ -360,15 +371,15 @@
       <workItem from="1546587275218" duration="3230000" />
       <workItem from="1546638602537" duration="200000" />
       <workItem from="1546638829601" duration="936000" />
-      <workItem from="1546714980419" duration="1444000" />
+      <workItem from="1546714980419" duration="2702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79616000" />
+    <option name="totallyTimeSpent" value="80874000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16032211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -427,7 +438,7 @@
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1546640937179" expanded="true" signature="495:527" ph="{...}" />
+            <marker date="1546716632999" expanded="true" signature="495:527" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -452,7 +463,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -478,7 +492,7 @@
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1546640937179" expanded="true" signature="495:527" ph="{...}" />
+            <marker date="1546716632999" expanded="true" signature="495:527" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -537,7 +551,7 @@
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1546640937179" expanded="true" signature="495:527" ph="{...}" />
+            <marker date="1546716632999" expanded="true" signature="495:527" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -630,7 +644,7 @@
           <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1546640937179" expanded="true" signature="495:527" ph="{...}" />
+            <marker date="1546716632999" expanded="true" signature="495:527" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -651,14 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="18" column="74" lean-forward="true" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/flags.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -674,18 +680,29 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js">
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chessApplication/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+        <state relative-caret-position="308">
+          <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="127" column="19" lean-forward="false" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="19" />
           <folding />
         </state>
       </provider>
