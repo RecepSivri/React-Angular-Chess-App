@@ -9,7 +9,13 @@ export class HeaderComponentComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  public ngOnInit()
+  {
+    $(window).on('load', function() {
+      $("#country_selector").countrySelect({
 
+      });
+    });
+
+  }
 }

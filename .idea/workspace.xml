@@ -2,158 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ab0ced0-4e8e-482e-92a1-36563f789d90" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html" afterPath="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html" />
-      <change beforePath="$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js" afterPath="$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js" />
-      <change beforePath="$PROJECT_DIR$/chessApplication/src/styles.css" afterPath="$PROJECT_DIR$/chessApplication/src/styles.css" />
+      <change afterPath="$PROJECT_DIR$/chessApplication/src/assets/i18n/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chessApplication/src/assets/i18n/tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/angular-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/e2e/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/e2e/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/src/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessApplication/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/tslint.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1149889684">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="4" />
-          <entry key="html" value="5" />
-          <entry key="js" value="3" />
-          <entry key="json" value="4" />
-          <entry key="ts" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="5" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="3" />
-          <entry key="TypeScript" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="Angular2LanguageService" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="328" />
-          <entry key="html" value="453" />
-          <entry key="json" value="162" />
-          <entry key="ts" value="111" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="328" />
-          <entry key="HTML" value="453" />
-          <entry key="JSON" value="162" />
-          <entry key="TypeScript" value="111" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chessApplication/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="390">
+              <caret line="1237" selection-start-line="1237" selection-end-line="1237" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countrySelect.js" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chessApplication/angular.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="127" column="19" lean-forward="false" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flags.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/flags.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flags@2x.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/flags@2x.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headerIcon.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/headerIcon.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chessApplication/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/main.ts">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header-component.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="-45">
+              <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.module.ts">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="26" selection-end-column="3" />
               <folding>
-                <element signature="e#0#58#0" expanded="true" />
-                <marker date="1546716632999" expanded="true" signature="495:527" ph="{...}" />
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,9 +161,9 @@
       <find>country-list</find>
       <find>loginBox</find>
       <find>us</find>
-      <find>us</find>
       <find>us&quot;</find>
       <find>selected</find>
+      <find>styles</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,54 +185,32 @@
         <option value="$PROJECT_DIR$/chessApplication/src/assets/language/tr.json" />
         <option value="$PROJECT_DIR$/chessApplication/src/app/header/header.component.html" />
         <option value="$PROJECT_DIR$/chessApplication/src/deneme.js" />
-        <option value="$PROJECT_DIR$/chessApplication/angular.json" />
-        <option value="$PROJECT_DIR$/chessApplication/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.ts" />
-        <option value="$PROJECT_DIR$/chessApplication/src/index.html" />
-        <option value="$PROJECT_DIR$/chessApplication/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/chessApplication/angular-cli.json" />
-        <option value="$PROJECT_DIR$/chessApplication/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html" />
-        <option value="$PROJECT_DIR$/chessApplication/src/styles.css" />
         <option value="$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js" />
+        <option value="$PROJECT_DIR$/chessApplication/src/assets/i18n/en.json" />
+        <option value="$PROJECT_DIR$/chessApplication/src/assets/i18n/tr.json" />
+        <option value="$PROJECT_DIR$/chessApplication/src/styles.css" />
+        <option value="$PROJECT_DIR$/chessApplication/src/index.html" />
+        <option value="$PROJECT_DIR$/chessApplication/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/chessApplication/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/chessApplication/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html" />
+        <option value="$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.ts" />
+        <option value="$PROJECT_DIR$/chessApplication/angular.json" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/chessApplication/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/chessApplication/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="67" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="15" />
-    <option name="width" value="1378" />
-    <option name="height" value="725" />
+    <option name="width" value="1366" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,39 +244,32 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="header-component" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AngulerJsChessApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngulerJsChessApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="chessApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="ts.external.directory.path" value="C:\Users\PIA\Desktop\AngulerJsChessApplication\chessApplication\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/chessApplication/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chessApplication/src/assets" />
+      <recent name="C:\Users\Recep Sivri\Desktop\AngulerJsChessApplication\chessApplication\src\assets" />
+      <recent name="C:\Users\PIA\Desktop\AngulerJsChessApplication\chessApplication\src\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PIA\Desktop\AngulerJsChessApplication\chessApplication\src\assets" />
       <recent name="C:\Users\PIA\Desktop\AngulerJsChessApplication\chessApplication\src" />
       <recent name="C:\Users\PIA\Desktop\AngulerJsChessApplication\chessApplication\src\scripts" />
       <recent name="C:\Users\PIA\Desktop\AngulerJsChessApplication\chessApplication" />
       <recent name="C:\Users\PIA\Desktop\AngulerJsChessApplication\chessApplication\src\styles" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Recep Sivri\Desktop\AngulerJsChessApplication\chessApplication\src\assets" />
-      <recent name="C:\Users\PIA\Desktop\AngulerJsChessApplication\chessApplication\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -340,15 +285,14 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="main.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AngulerJsChessApplication/main.html" />
+    <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AngulerJsChessApplication/main.html">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.main.html" />
+      <list>
+        <item itemvalue="JavaScript Debug.main.html" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -372,206 +316,62 @@
       <workItem from="1546638602537" duration="200000" />
       <workItem from="1546638829601" duration="936000" />
       <workItem from="1546714980419" duration="2702000" />
+      <workItem from="1546800470546" duration="918000" />
+      <workItem from="1546801492653" duration="714000" />
+      <workItem from="1546802300310" duration="1459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80874000" />
+    <option name="totallyTimeSpent" value="83965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="0" y="15" width="1366" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16032211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20602219" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2946896" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39936608" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25041735" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.329718" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16764276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16764276" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <marker date="1546716632999" expanded="true" signature="495:527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="1237" column="1" lean-forward="false" selection-start-line="1237" selection-start-column="1" selection-end-line="1237" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <marker date="1546716632999" expanded="true" signature="495:527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <marker date="1546716632999" expanded="true" signature="495:527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/bishop.png" />
     <entry file="file://$PROJECT_DIR$/point.js" />
     <entry file="file://$PROJECT_DIR$/README.md" />
@@ -585,105 +385,63 @@
     <entry file="file://$PROJECT_DIR$/queen.js" />
     <entry file="file://$PROJECT_DIR$/pawn.js" />
     <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/language/tr.json" />
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header/header.component.ts" />
     <entry file="file://$PROJECT_DIR$/chessApplication/src/styles/countrySelect.min.css" />
     <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header/header.component.html" />
     <entry file="file://$PROJECT_DIR$/chessApplication/src/styles/countrySelect.css" />
     <entry file="file://$PROJECT_DIR$/chessApplication/src/styles/demo.css" />
     <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/countrySelect.min.js" />
-    <entry file="file://$PROJECT_DIR$/chessApplication/angular.json" />
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/angular-cli.json" />
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/flags.png" />
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/headerIcon.png" />
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/flags@2x.png" />
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/i18n.json" />
     <entry file="file://$PROJECT_DIR$/chessApplication/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/i18n/en.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/i18n/tr.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <marker date="1546716632999" expanded="true" signature="495:527" ph="{...}" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/flags.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/headerIcon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/flags@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="225">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
@@ -691,19 +449,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/styles.css">
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="-45">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/countrySelect.js">
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="127" column="19" lean-forward="false" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="193">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="1237" selection-start-line="1237" selection-end-line="1237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
         </state>
       </provider>
     </entry>
