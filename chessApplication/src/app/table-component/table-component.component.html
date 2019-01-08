@@ -4,28 +4,28 @@
   <div *ngFor="let tableRow of table;let i = index;">
     <div class="rowClass">
       <button class=" pieces" id="{{tableRow[0].piece}}"  [ngClass]="[(i*7+0)%2==0 ? 'whiteCell': 'blueCell']"
-              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[0].piece+'.png)', 'background-repeat':'no-repeat' }"></button>
+              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[0].piece+'.png)', 'background-repeat':'no-repeat','background-position':'50% 50%' }"></button>
 
       <button class="pieces"  id="{{tableRow[1].piece}}" [ngClass]="[(i*7+1)%2==0 ? 'whiteCell': 'blueCell']"
-              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[1].piece+'.png)', 'background-repeat':'no-repeat'}" ></button>
+              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[1].piece+'.png)', 'background-repeat':'no-repeat','background-position':'50% 50%'}" ></button>
 
       <button class=" pieces" id="{{tableRow[2].piece}}" [ngClass]="[(i*7+2)%2==0 ? 'whiteCell': 'blueCell']"
-              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[2].piece+'.png)', 'background-repeat':'no-repeat'}" ></button>
+              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[2].piece+'.png)', 'background-repeat':'no-repeat','background-position':'50% 50%'}" ></button>
 
       <button class=" pieces" id="{{tableRow[3].piece}}" [ngClass]="[(i*7+3)%2==0 ? 'whiteCell': 'blueCell']"
-              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[3].piece+'.png)', 'background-repeat':'no-repeat'}" ></button>
+              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[3].piece+'.png)', 'background-repeat':'no-repeat','background-position':'50% 50%'}" ></button>
 
       <button class="pieces"  id="{{tableRow[4].piece}}" [ngClass]="[(i*7+4)%2==0 ? 'whiteCell': 'blueCell']"
-              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[4].piece+'.png)', 'background-repeat':'no-repeat'}" ></button>
+              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[4].piece+'.png)', 'background-repeat':'no-repeat','background-position':'50% 50%'}" ></button>
 
       <button class=" pieces" id="{{tableRow[5].piece}}" [ngClass]="[(i*7+5)%2==0 ? 'whiteCell': 'blueCell']"
-              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[5].piece+'.png)', 'background-repeat':'no-repeat'}" ></button>
+              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[5].piece+'.png)', 'background-repeat':'no-repeat','background-position':'50% 50%'}" ></button>
 
       <button class=" pieces" id="{{tableRow[6].piece}}" [ngClass]="[(i*7+6)%2==0 ? 'whiteCell': 'blueCell']"
-              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[6].piece+'.png)', 'background-repeat':'no-repeat'}" ></button>
+              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[6].piece+'.png)', 'background-repeat':'no-repeat','background-position':'50% 50%'}" ></button>
 
       <button class=" pieces" id="{{tableRow[7].piece}}" [ngClass]="[(i*7+7)%2==0 ? 'whiteCell': 'blueCell']"
-              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[7].piece+'.png)', 'background-repeat':'no-repeat'}" ></button>
+              [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[7].piece+'.png)', 'background-repeat':'no-repeat','background-position':'50% 50%'}" ></button>
     </div>
 
   </div>
