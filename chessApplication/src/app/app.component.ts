@@ -1,7 +1,6 @@
 import { Component ,OnInit} from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
-declare var $: any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -18,11 +17,6 @@ export class AppComponent implements OnInit{
 
   public ngOnInit()
   {
-    $(window).on('load', function() {
-      $("#country_selector").countrySelect({
-
-      });
-    });
 
   }
 

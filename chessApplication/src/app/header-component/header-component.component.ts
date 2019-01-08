@@ -1,7 +1,7 @@
 import { Component, OnInit,OnChanges } from '@angular/core';
 import {log} from "util";
 import { TranslateService } from '@ngx-translate/core';
-declare var $: any;
+
 @Component({
   selector: 'app-header-component',
   templateUrl: './header-component.component.html',
@@ -15,38 +15,14 @@ export class HeaderComponentComponent implements OnInit ,OnChanges {
 
   switchLanguage(language: string) {
     this.translate.use(language);
+    console.log(language)
   }
 
 
   public ngOnInit()
   {
-    this.switchLanguage('tr')
-    var a=function(){
-      this.switchLanguage('tr')
-
-    }
-    var b=function(){
-      this.switchLanguage('en')
-    }
-
-    $(window).on('load', function() {
-      $("#country_selector").countrySelect({
-
-      })
 
 
-
-    });
-
-    $("#country_selector").change(function() {
-
-      if(this.value=='Tr')
-        a();
-      if(this.value=='Us')
-        b()
-
-
-    });
 
 
   }
