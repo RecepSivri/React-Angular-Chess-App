@@ -1,0 +1,21 @@
+
+<div class="containerTable">
+
+  <div *ngFor="let tableRow of table;let i = index;">
+    <div class="rowClass">
+      <button class=" pieces" id="{{tableRow[0].piece}}"  [ngClass]="[(i*7+0)%2==0 ? 'whiteCell': 'blueCell']"></button>
+      <button class="pieces"  id="{{tableRow[1].piece}}" [ngClass]="[(i*7+1)%2==0 ? 'whiteCell': 'blueCell']"></button>
+      <button class=" pieces" id="{{tableRow[2].piece}}" [ngClass]="[(i*7+2)%2==0 ? 'whiteCell': 'blueCell']"></button>
+      <button class=" pieces" id="{{tableRow[3].piece}}" [ngClass]="[(i*7+3)%2==0 ? 'whiteCell': 'blueCell']"></button>
+      <button class="pieces"  id="{{tableRow[4].piece}}" [ngClass]="[(i*7+4)%2==0 ? 'whiteCell': 'blueCell']" ></button>
+      <button class=" pieces" id="{{tableRow[5].piece}}" [ngClass]="[(i*7+5)%2==0 ? 'whiteCell': 'blueCell']"></button>
+      <button class=" pieces" id="{{tableRow[6].piece}}" [ngClass]="[(i*7+6)%2==0 ? 'whiteCell': 'blueCell']"></button>
+      <button class=" pieces" id="{{tableRow[7].piece}}" [ngClass]="[(i*7+7)%2==0 ? 'whiteCell': 'blueCell']"></button>
+    </div>
+
+  </div>
+
+</div>
+
+
+

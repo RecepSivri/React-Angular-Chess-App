@@ -29,3 +29,28 @@
   margin-left: 5px;
   font-weight: bold;
 }
+.pieces{
+  max-width:60px;
+  min-width:60px;
+  max-height:60px;
+  min-height:60px;
+  margin-right:1px;
+}
+
+.rowClass{
+  margin-bottom: -3px;
+}
+.whiteCell{
+  background-color: #ebebeb;
+  border:1px solid #ebebeb;
+}
+
+.blueCell{
+  background-color: #7c8ebc;
+  border:1px solid #7c8ebc;
+}
+
+.containerTable{
+  margin-top: 30px;
+  margin-left:200px;
+}

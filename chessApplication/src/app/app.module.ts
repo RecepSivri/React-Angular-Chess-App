@@ -8,6 +8,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HeaderComponentComponent } from './header-component/header-component.component';
+import { TableComponentComponent } from './table-component/table-component.component';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -15,7 +16,8 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponentComponent
+    HeaderComponentComponent,
+    TableComponentComponent
   ],
   imports: [
     BrowserModule,
