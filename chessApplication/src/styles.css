@@ -38,7 +38,7 @@
 }
 
 .rowClass{
-  margin-bottom: -3px;
+  margin-bottom: 0px;
 }
 .whiteCell{
   background-color: #ebebeb;
@@ -53,4 +53,53 @@
 .containerTable{
   margin-top: 30px;
   margin-left:200px;
+}
+.bottomEdge{
+  width:523px;
+  background-color: #314158;
+  color:white;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.bottomNumbers{
+  width:63px;
+  margin-bottom: -2px;
+  padding-left: 25px;
+  border-right: 1px solid white;
+}
+.VerticalEdge{
+  background-color: #314158;
+  color:white;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  width:18px;
+  padding-left:3px;
+  padding-top:17px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+.cornerLeftBottom{
+  background-color: #314158;
+  max-width: 18px;
+  min-width: 18px;
+  border-right: 1px solid white;
+}
+.cornerRightBottom{
+  background-color: #314158;
+  max-width: 18px;
+  min-width: 18px;
+}
+
+
+
+.topEdge{
+  width:523px;
+  background-color: #314158;
+  color:white;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom:1px;
 }

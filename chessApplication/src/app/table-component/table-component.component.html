@@ -1,8 +1,15 @@
 
 <div class="containerTable">
 
+  <div class="topEdge d-flex flex-row" >
+    <div class="cornerLeftBottom"></div>
+    <p *ngFor="let tableBottomEdgeData of tableBottomEdge;"class="bottomNumbers">{{tableBottomEdgeData.val}}</p>
+    <div class="cornerRightBottom"></div>
+  </div>
+
   <div *ngFor="let tableRow of table;let i = index;">
-    <div class="rowClass">
+    <div class="rowClass d-flex flex-row">
+      <div class="VerticalEdge">{{tableLeftEdge[i].val}}</div>
       <button class=" pieces" id="{{tableRow[0].piece}}"  [ngClass]="[(i*7+0)%2==0 ? 'whiteCell': 'blueCell']"
               [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[0].piece+'.png)', 'background-repeat':'no-repeat','background-position':'50% 50%' }"></button>
 
@@ -26,11 +33,17 @@
 
       <button class=" pieces" id="{{tableRow[7].piece}}" [ngClass]="[(i*7+7)%2==0 ? 'whiteCell': 'blueCell']"
               [ngStyle]="{'background-image': 'url(assets/pieces/'+tableRow[7].piece+'.png)', 'background-repeat':'no-repeat','background-position':'50% 50%'}" ></button>
+
+      <div class="VerticalEdge">{{tableLeftEdge[i].val}}</div>
     </div>
 
   </div>
 
+  <div class="bottomEdge d-flex flex-row" >
+    <div class="cornerLeftBottom"></div>
+    <p *ngFor="let tableBottomEdgeData of tableBottomEdge;"class="bottomNumbers">{{tableBottomEdgeData.val}}</p>
+    <div class="cornerRightBottom"></div>
+  </div>
 </div>
-
 
 
