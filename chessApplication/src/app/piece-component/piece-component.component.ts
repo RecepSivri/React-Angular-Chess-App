@@ -1,4 +1,4 @@
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-piece-component',
@@ -7,20 +7,9 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 })
 export class PieceComponentComponent implements OnInit {
 
-  @Output() onPlayed=new EventEmitter<{y:number ,x:number,piece:string }>();
+  @Input() deneme;
   constructor() { }
 
-  x=0;
-  y=0;
-  piece="";
-
-  onPlay(){
-    this.onPlayed.emit({
-      x:this.x,
-      y:this.y,
-      piece:this.piece
-    })
-  }
 
   ngOnInit() {
   }

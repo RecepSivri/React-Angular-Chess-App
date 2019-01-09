@@ -19,7 +19,7 @@ export class AppComponent implements OnInit{
   {
 
   }
-
+  varDeneme;
     tableContent=[[{id:0,piece:"wrook"},{id:1,piece:"whorse"},{id:2,piece:"wbishop"},{id:3,piece:"wqueen"},
       {id:4,piece:"wking"},{id:5,piece:"wbishop"},{id:6,piece:"whorse"},{id:7,piece:"wrook"}],
 
@@ -46,7 +46,7 @@ export class AppComponent implements OnInit{
 ];
 
   onTableTriggered(value){
-    console.log(value)
+    this.varDeneme=value.piece;
   }
 
 

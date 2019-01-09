@@ -103,3 +103,12 @@
   font-weight: bold;
   margin-bottom:1px;
 }
+
+
+.pieces:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+
+  background-color: rgba(126, 209, 38, 0.6);
+  border: 2px solid rgba(126, 209, 38, 0.6);
+  cursor: pointer;
+
+}
