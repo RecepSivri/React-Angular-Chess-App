@@ -1,2 +1,2 @@
 <app-header-component></app-header-component>
-<app-table-component ></app-table-component>
+<app-table-component (TableEvent)="onTableTriggered($event)" [ChessTable]="tableContent"></app-table-component>

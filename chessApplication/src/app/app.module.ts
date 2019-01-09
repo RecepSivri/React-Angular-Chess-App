@@ -9,6 +9,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HeaderComponentComponent } from './header-component/header-component.component';
 import { TableComponentComponent } from './table-component/table-component.component';
+import { PieceComponentComponent } from './piece-component/piece-component.component';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -17,7 +18,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     HeaderComponentComponent,
-    TableComponentComponent
+    TableComponentComponent,
+    PieceComponentComponent
   ],
   imports: [
     BrowserModule,
