@@ -3,12 +3,15 @@ import {Component, EventEmitter, OnInit, Input, OnChanges} from '@angular/core';
 import {PawnService} from "../pawn.service";
 import {HorseService} from "../horse.service";
 import {RookService} from "../rook.service";
+import {BishopService} from "../bishop.service";
+import {QueenService} from "../queen.service";
+import {KingService} from "../king.service";
 
 @Component({
   selector: 'app-piece-component',
   templateUrl: './piece-component.component.html',
   styleUrls: ['./piece-component.component.css'],
-  providers: [PawnService,HorseService,RookService]
+  providers: [PawnService,HorseService,RookService,BishopService,QueenService,KingService]
 })
 export class PieceComponentComponent implements OnInit ,OnChanges {
 
@@ -16,7 +19,8 @@ export class PieceComponentComponent implements OnInit ,OnChanges {
   @Input() chessTable;
   playStack=[];
   flagStack=[];
-  constructor(private pawnService:PawnService,private horseService:HorseService,private rookService:RookService) { }
+  constructor(private pawnService:PawnService,private horseService:HorseService,private rookService:RookService,
+              private bishopService:BishopService,private queenService:QueenService,private kingService:KingService) { }
 
 
   ngOnInit() {
@@ -69,6 +73,27 @@ export class PieceComponentComponent implements OnInit ,OnChanges {
 
         }
 
+        if(clicked==="bishop") {
+          var flag=4;
+          this.flagStack.push(flag);
+          this.bishopService.bishopMarkArea(obj,playStack,table)
+
+        }
+
+        if(clicked==="queen") {
+          var flag=5;
+          this.flagStack.push(flag);
+          this.queenService.queenMarkArea(obj,playStack,table)
+
+        }
+
+        if(clicked==="king") {
+          var flag=6;
+          this.flagStack.push(flag);
+          this.kingService.kingMarkArea(obj,playStack,table)
+
+        }
+
       if(playStack.length==2)
       {
 
@@ -80,10 +105,16 @@ export class PieceComponentComponent implements OnInit ,OnChanges {
             this.horseService.horseMove(this.playStack,table)
 
           if(a===3)
-          {
             this.rookService.rookMove(this.playStack,table)
-            console.log("rook move")
-          }
+
+          if(a===4)
+            this.bishopService.bishopMove(this.playStack,table)
+
+          if(a===5)
+            this.queenService.queenMove(this.playStack,table)
+
+          if(a===6)
+            this.kingService.kingMove(this.playStack,table)
 
       }
 

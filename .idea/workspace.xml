@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ab0ced0-4e8e-482e-92a1-36563f789d90" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chessApplication/src/app/horse.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chessApplication/src/app/rook.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chessApplication/src/app/bishop.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chessApplication/src/app/king.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chessApplication/src/app/queen.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chessApplication/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chessApplication/scripts/pawn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chessApplication/src/app/pawn.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/app/pawn.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chessApplication/src/app/piece-component/piece-component.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chessApplication/src/app/piece-component/piece-component.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,7 +24,7 @@
           <entry key="css" value="816" />
           <entry key="html" value="2004" />
           <entry key="json" value="16" />
-          <entry key="ts" value="3026" />
+          <entry key="ts" value="4016" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -35,28 +33,28 @@
           <entry key="HTML" value="2003" />
           <entry key="JSON" value="16" />
           <entry key="JavaScript" value="1" />
-          <entry key="TypeScript" value="3026" />
+          <entry key="TypeScript" value="4016" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="7" />
-          <entry key="html" value="13" />
+          <entry key="html" value="15" />
           <entry key="ico" value="1" />
           <entry key="js" value="3" />
           <entry key="json" value="6" />
           <entry key="png" value="24" />
-          <entry key="ts" value="34" />
+          <entry key="ts" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="HTML" value="13" />
+          <entry key="HTML" value="15" />
           <entry key="Image" value="25" />
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="3" />
-          <entry key="TypeScript" value="34" />
+          <entry key="TypeScript" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -79,22 +77,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chessApplication/src/app/piece-component/piece-component.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+            <state relative-caret-position="379">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#0#80#0" expanded="true" />
               </folding>
@@ -102,20 +88,52 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chessApplication/src/app/rook.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+            <state relative-caret-position="34">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/table-component/table-component.component.ts">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/queen.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="-1292">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/king.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/bishop.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -132,49 +150,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chessApplication/src/app/horse.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="34">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/angular.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/header-component/header-component.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/table-component/table-component.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="40" column="116" selection-start-line="40" selection-start-column="116" selection-end-line="40" selection-end-column="116" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/chessApplication/src/app/piece-component/piece-component.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -252,9 +236,12 @@
         <option value="$PROJECT_DIR$/chessApplication/src/app/table-component/table-component.component.html" />
         <option value="$PROJECT_DIR$/chessApplication/src/app/pawn.service.ts" />
         <option value="$PROJECT_DIR$/chessApplication/angular.json" />
-        <option value="$PROJECT_DIR$/chessApplication/src/app/horse.service.ts" />
-        <option value="$PROJECT_DIR$/chessApplication/src/app/piece-component/piece-component.component.ts" />
         <option value="$PROJECT_DIR$/chessApplication/src/app/rook.service.ts" />
+        <option value="$PROJECT_DIR$/chessApplication/src/app/horse.service.ts" />
+        <option value="$PROJECT_DIR$/chessApplication/src/app/bishop.service.ts" />
+        <option value="$PROJECT_DIR$/chessApplication/src/app/queen.service.ts" />
+        <option value="$PROJECT_DIR$/chessApplication/src/app/piece-component/piece-component.component.ts" />
+        <option value="$PROJECT_DIR$/chessApplication/src/app/king.service.ts" />
       </list>
     </option>
   </component>
@@ -315,23 +302,7 @@
               <item name="chessApplication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="header-component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngulerJsChessApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngulerJsChessApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="chessApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="piece-component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngulerJsChessApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngulerJsChessApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="chessApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="table-component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AngulerJsChessApplication" type="b2602c69:ProjectViewProjectNode" />
@@ -419,12 +390,12 @@
       <workItem from="1547014212963" duration="15471000" />
       <workItem from="1547058001741" duration="4932000" />
       <workItem from="1547103122024" duration="727000" />
-      <workItem from="1547191836271" duration="14209000" />
+      <workItem from="1547191836271" duration="19281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143307000" />
+    <option name="totallyTimeSpent" value="148379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -476,9 +447,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chessApplication/angular-cli.json" />
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/flags.png" />
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/flags@2x.png" />
     <entry file="file://$PROJECT_DIR$/chessApplication/src/assets/i18n.json" />
     <entry file="file://$PROJECT_DIR$/chessApplication/src/main.ts">
       <provider selected="true" editor-type-id="text-editor" />
@@ -601,16 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/piece-component/piece-component.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -623,9 +581,6 @@
           <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -668,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/pawn.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chessApplication/src/app/table-component/table-component.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -682,27 +630,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/piece-component/piece-component.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/bishop.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/horse.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/rook.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/queen.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1292">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/pawn.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chessApplication/src/app/piece-component/piece-component.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+        <state relative-caret-position="379">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="e#0#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/horse.service.ts">
+    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/king.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chessApplication/src/app/rook.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+        <state relative-caret-position="527">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
         </state>
       </provider>
     </entry>
