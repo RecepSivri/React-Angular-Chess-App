@@ -2,11 +2,11 @@ export class PawnService{
 
   pawnMarkArea(piece,stack,table)
   {
-    var point = {X:piece.x, Y:piece.y};
+
     var x=piece.x;
     var y=piece.y;
-    console.log(point)
-    stack.push(point);
+    stack.push(piece);
+
     if(y-1>=0&&y+1<=7&&x-1>=0&&x+1<=7)
     {
       var orthogonalRight=table[y-1][x+1].piece;
@@ -43,5 +43,57 @@ export class PawnService{
     }
 
   }
+
+  pawnMove(stack,table)
+  {
+    var currCoor=stack.pop();
+    var oldCoor=stack.pop();
+      var pieceMove = table[oldCoor.y][oldCoor.x].piece;
+      if(pieceMove==="pawn")
+      {
+
+        if(oldCoor.y==6&&currCoor.y==4&&oldCoor.x==currCoor.x)
+        {
+          table[oldCoor.y][oldCoor.x].piece='space';
+          table[currCoor.y][currCoor.x].piece = 'pawn';
+        }
+        else
+        {
+          if(oldCoor.y-currCoor.y==1&&oldCoor.x-currCoor.x==1)
+          {
+            var orthogonalLeft=table[currCoor.y][currCoor.y];
+            if(orthogonalLeft!==undefined&&orthogonalLeft.piece[0]==='w')
+            {
+              table[currCoor.y][currCoor.x].piece = 'pawn';
+              table[oldCoor.y][oldCoor.x].piece = 'space';
+            }
+          }
+          if(oldCoor.y-currCoor.y==1&&oldCoor.x-currCoor.x==-1)
+          {
+            var orthogonalRight=table[currCoor.y][currCoor.x];
+            if(orthogonalRight!==undefined&&orthogonalRight.piece[0]==='w')
+            {
+              table[currCoor.y][currCoor.x].piece = 'pawn';
+              table[oldCoor.y][oldCoor.x].piece = 'space';
+            }
+          }
+
+          if(oldCoor.y-currCoor.y==1&&oldCoor.x==currCoor.x)
+          {
+            var up=table[currCoor.y][currCoor.x];
+            if((up.piece[0]==='w' || up.piece[0]==='s'))
+            {
+              table[oldCoor.y][oldCoor.x].piece='space';
+              table[currCoor.y][currCoor.x].piece = 'pawn';
+            }
+
+          }
+        }
+
+      }
+
+    }
+
+
 
 }
