@@ -107,8 +107,14 @@
 
 .pieces:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
 
-  background-color: rgba(126, 209, 38, 0.6);
-  border: 2px solid rgba(126, 209, 38, 0.6);
+  background-color: rgba(180, 210, 0, 0.6);
+  border: 2px solid rgba(180, 210, 0, 0.6);
   cursor: pointer;
 
+}
+
+.selectedPiece
+{
+  background-color: rgba(126, 209, 38, 0.6);
+  border: 1px solid rgba(126, 209, 38, 0.6);
 }
