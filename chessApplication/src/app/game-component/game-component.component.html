@@ -1,0 +1,3 @@
+<app-table-component (TableEvent)="onTableTriggered($event)" [ChessTable]="tableContent"></app-table-component>
+<app-piece-component [chessTable]="tableContent" [ActionedPiece]="selectedPiece"></app-piece-component>
+<router-outlet></router-outlet>

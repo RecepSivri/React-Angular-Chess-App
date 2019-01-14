@@ -10,6 +10,9 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HeaderComponentComponent } from './header-component/header-component.component';
 import { TableComponentComponent } from './table-component/table-component.component';
 import { PieceComponentComponent } from './piece-component/piece-component.component';
+import { AboutComponentComponent } from './about-component/about-component.component';
+import { GameComponentComponent } from './game-component/game-component.component';
+import { ScoresComponentComponent } from './scores-component/scores-component.component';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -19,7 +22,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     HeaderComponentComponent,
     TableComponentComponent,
-    PieceComponentComponent
+    PieceComponentComponent,
+    AboutComponentComponent,
+    GameComponentComponent,
+    ScoresComponentComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +36,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

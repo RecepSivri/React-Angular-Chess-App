@@ -3,7 +3,9 @@
 
     <div>
       <img class="headerIcon" src="assets/headerIcon.png">
-      <span class="headerTitle">Chess Master</span>
+      <span routerLinkActive="active" routerLink="/home" [routerLinkActiveOptions]="{exact:true}" class="headerTitle">Chess Master</span>
+      <span routerLinkActive="active" routerLink="/scores"class="headerTitleMenu">{{ 'scores' | translate }}</span>
+      <span routerLinkActive="active" routerLink="/about"class="headerTitleMenu">{{ 'about' | translate }}</span>
     </div>
 
     <div class="loginBox">

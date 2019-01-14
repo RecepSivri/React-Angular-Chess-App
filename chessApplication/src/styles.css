@@ -9,6 +9,10 @@
   margin-left:5px;
 }
 
+headerTitle:hover{
+  cursor: pointer;
+}
+
 .headerIcon {
   margin-top: -8px;
 }
@@ -117,4 +121,15 @@
 {
   background-color: rgba(126, 209, 38, 0.6);
   border: 1px solid rgba(126, 209, 38, 0.6);
+}
+
+
+.headerTitleMenu{
+  color: white;
+  font-size: 20px;
+  font-family: SansSerif;
+  margin-left:15px;
+}
+.headerTitleMenu:hover{
+  cursor: pointer;
 }
