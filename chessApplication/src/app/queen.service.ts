@@ -1,4 +1,11 @@
+
+import {Injectable} from "@angular/core";
+import {PieceService} from "./piece.service";
+
+@Injectable()
 export class QueenService{
+
+  constructor(private pieceService: PieceService){}
 
   queenMarkArea(piece,stack,table)
   {
@@ -96,6 +103,9 @@ export class QueenService{
   {
     var currCoor=stack.pop();
     var oldCoor=stack.pop();
+
+    if(currCoor.piece[0]=='w')
+      this.pieceService.piecesLosed.next(currCoor.piece);
 
     if(currCoor.x===oldCoor.x)
     {

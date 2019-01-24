@@ -1,7 +1,15 @@
+import {Injectable} from "@angular/core";
+import {PieceService} from "./piece.service";
+
+@Injectable()
+
+
 export class BishopService{
+  constructor(private pieceService: PieceService){}
 
   bishopMarkArea(piece,stack,table)
   {
+
 
     var x=piece.x;
     var y=piece.y;
@@ -56,11 +64,15 @@ export class BishopService{
     var currCoor = stack.pop();
     var oldCoor = stack.pop();
 
+     if(currCoor.piece[0]=='w')
+       this.pieceService.piecesLosed.next(currCoor.piece);
+
     var x1 = currCoor.x;
     var y1 = currCoor.y;
 
     var x2 = oldCoor.x;
     var y2 = oldCoor.y;
+
 
 
     var i;

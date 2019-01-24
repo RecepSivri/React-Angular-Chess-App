@@ -1,3 +1,5 @@
-<app-table-component (TableEvent)="onTableTriggered($event)" [ChessTable]="tableContent"></app-table-component>
-<app-piece-component [chessTable]="tableContent" [ActionedPiece]="selectedPiece"></app-piece-component>
-<router-outlet></router-outlet>
+<div style=" height: calc(100% - 52px);" class="d-flex flex-row">
+  <app-scores-board ></app-scores-board>
+  <app-table-component style="margin-left: calc((100% - 523px)/2 - 200px);"(TableEvent)="onTableTriggered($event)" [ChessTable]="tableContent"></app-table-component>
+  <app-piece-component [chessTable]="tableContent" [ActionedPiece]="selectedPiece"></app-piece-component>
+</div>

@@ -1,4 +1,11 @@
+import {Injectable} from "@angular/core";
+import {PieceService} from "./piece.service";
+
+@Injectable()
+
 export class RookService{
+
+  constructor(private pieceService: PieceService){}
 
   rookMarkArea(piece,stack,table)
   {
@@ -49,6 +56,9 @@ export class RookService{
     console.log("asdsa")
     var currCoor=stack.pop();
     var oldCoor=stack.pop();
+
+    if(currCoor.piece[0]=='w')
+      this.pieceService.piecesLosed.next(currCoor.piece);
 
     if(currCoor.x===oldCoor.x)
     {

@@ -13,6 +13,8 @@ import { PieceComponentComponent } from './piece-component/piece-component.compo
 import { AboutComponentComponent } from './about-component/about-component.component';
 import { GameComponentComponent } from './game-component/game-component.component';
 import { ScoresComponentComponent } from './scores-component/scores-component.component';
+import { ScoresBoardComponent } from './scores-board/scores-board.component';
+import {PieceService} from "./piece.service";
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -25,7 +27,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     PieceComponentComponent,
     AboutComponentComponent,
     GameComponentComponent,
-    ScoresComponentComponent
+    ScoresComponentComponent,
+    ScoresBoardComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     }),
     AppRoutingModule
   ],
-  providers: [],
+  providers: [PieceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

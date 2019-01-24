@@ -7,7 +7,7 @@ import {ScoresComponentComponent} from  './scores-component/scores-component.com
 const routes: Routes = [{path:'',component:GameComponentComponent},
   {path:'about',component:AboutComponentComponent},
   {path:'home',component:GameComponentComponent,children:[{path:':id',component:AboutComponentComponent},{path:':id/edit',component:ScoresComponentComponent}]},
-  {path:'scores/:id/:name',component:ScoresComponentComponent}];
+  {path:'scores',component:ScoresComponentComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

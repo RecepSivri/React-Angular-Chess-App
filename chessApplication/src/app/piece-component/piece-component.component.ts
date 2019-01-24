@@ -6,6 +6,7 @@ import {RookService} from "../rook.service";
 import {BishopService} from "../bishop.service";
 import {QueenService} from "../queen.service";
 import {KingService} from "../king.service";
+import {PieceService} from "../piece.service";
 
 @Component({
   selector: 'app-piece-component',
@@ -20,7 +21,7 @@ export class PieceComponentComponent implements OnInit ,OnChanges {
   playStack=[];
   flagStack=[];
   constructor(private pawnService:PawnService,private horseService:HorseService,private rookService:RookService,
-              private bishopService:BishopService,private queenService:QueenService,private kingService:KingService) { }
+              private bishopService:BishopService,private queenService:QueenService,private kingService:KingService,private pieceService: PieceService) { }
 
 
   ngOnInit() {
@@ -56,6 +57,8 @@ export class PieceComponentComponent implements OnInit ,OnChanges {
           var flag=1;
           this.flagStack.push(flag);
           this.pawnService.pawnMarkArea(obj,playStack,table)
+
+
 
         }
 

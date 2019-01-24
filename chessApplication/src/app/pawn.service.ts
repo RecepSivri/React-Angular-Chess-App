@@ -1,5 +1,10 @@
+import {Injectable} from "@angular/core";
+import {PieceService} from "./piece.service";
+
+@Injectable()
 export class PawnService{
 
+  constructor(private pieceService: PieceService){}
   pawnMarkArea(piece,stack,table)
   {
 
@@ -48,6 +53,9 @@ export class PawnService{
   {
     var currCoor=stack.pop();
     var oldCoor=stack.pop();
+
+    if(currCoor.piece[0]=='w')
+      this.pieceService.piecesLosed.next(currCoor.piece);
       var pieceMove = table[oldCoor.y][oldCoor.x].piece;
       if(pieceMove==="pawn")
       {

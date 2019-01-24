@@ -1,5 +1,10 @@
+import {Injectable} from "@angular/core";
+import {PieceService} from "./piece.service";
+
+@Injectable()
 export class HorseService{
 
+  constructor(private pieceService: PieceService){}
   horseMarkArea(piece,stack,table)
   {
 
@@ -30,6 +35,9 @@ export class HorseService{
   {
     var currCoor=stack.pop();
     var oldCoor=stack.pop();
+
+    if(currCoor.piece[0]=='w')
+      this.pieceService.piecesLosed.next(currCoor.piece);
     if(oldCoor.y-2===currCoor.y && oldCoor.x+1===currCoor.x&& (table[currCoor.y][currCoor.x].piece[0]==='w' || table[currCoor.y][currCoor.x].piece[0]==='s'))
     {
       table[oldCoor.y][oldCoor.x].piece='space';

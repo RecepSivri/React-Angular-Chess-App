@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .chessNavbar{
   background-color: #297ace;
+
 }
 .headerTitle{
   color: white;
@@ -56,7 +57,6 @@ headerTitle:hover{
 
 .containerTable{
   margin-top: 30px;
-  margin-left:200px;
 }
 .bottomEdge{
   width:523px;

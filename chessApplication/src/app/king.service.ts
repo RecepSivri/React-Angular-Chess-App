@@ -1,4 +1,11 @@
+import {Injectable} from "@angular/core";
+import {PieceService} from "./piece.service";
+
+@Injectable()
+
 export class KingService{
+
+  constructor(private pieceService: PieceService){}
 
   kingMarkArea(piece,stack,table)
   {
@@ -46,6 +53,9 @@ export class KingService{
   {
     var currCoor=stack.pop();
     var oldCoor=stack.pop();
+
+    if(currCoor.piece[0]=='w')
+      this.pieceService.piecesLosed.next(currCoor.piece);
 
     var distance=(currCoor.x-oldCoor.x)*(currCoor.x-oldCoor.x)+(currCoor.y-oldCoor.y)*(currCoor.y-oldCoor.y)
     if(distance<=2&&(table[currCoor.y][currCoor.x].piece[0]==='w'||table[currCoor.y][currCoor.x].piece[0]==='s'))
