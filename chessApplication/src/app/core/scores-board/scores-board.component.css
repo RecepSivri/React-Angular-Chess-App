@@ -5,3 +5,17 @@
   background-color: #cccccc ;
 
 }
+
+.piecesScore{
+
+  border: 2px solid #696588;
+  border-radius:5px;
+  height: 56px;
+}
+
+.piecesHeader {
+  padding-top: 10px;
+  margin-left:10px;
+  margin-bottom:-1px;
+  color: #696588;
+}

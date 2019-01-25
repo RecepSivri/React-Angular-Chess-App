@@ -118,15 +118,8 @@ export class PieceComponentComponent implements OnInit ,OnChanges {
 
           if(a===6)
             this.kingService.kingMove(this.playStack,table)
-
       }
-
-
     }
-
-
-
-
   }
 
 }
