@@ -54,8 +54,7 @@ export class PawnService{
     var currCoor=stack.pop();
     var oldCoor=stack.pop();
 
-    if(currCoor.piece[0]=='w')
-      this.pieceService.piecesLosed.next(currCoor.piece);
+
       var pieceMove = table[oldCoor.y][oldCoor.x].piece;
       if(pieceMove==="pawn")
       {
@@ -64,6 +63,9 @@ export class PawnService{
         {
           table[oldCoor.y][oldCoor.x].piece='space';
           table[currCoor.y][currCoor.x].piece = 'pawn';
+
+          if(currCoor.piece[0]=='w')
+            this.pieceService.piecesLosed.next(currCoor.piece);
         }
         else
         {
@@ -74,6 +76,9 @@ export class PawnService{
             {
               table[currCoor.y][currCoor.x].piece = 'pawn';
               table[oldCoor.y][oldCoor.x].piece = 'space';
+
+              if(currCoor.piece[0]=='w')
+                this.pieceService.piecesLosed.next(currCoor.piece);
             }
           }
           if(oldCoor.y-currCoor.y==1&&oldCoor.x-currCoor.x==-1)
@@ -83,6 +88,9 @@ export class PawnService{
             {
               table[currCoor.y][currCoor.x].piece = 'pawn';
               table[oldCoor.y][oldCoor.x].piece = 'space';
+
+              if(currCoor.piece[0]=='w')
+                this.pieceService.piecesLosed.next(currCoor.piece);
             }
           }
 
@@ -93,6 +101,9 @@ export class PawnService{
             {
               table[oldCoor.y][oldCoor.x].piece='space';
               table[currCoor.y][currCoor.x].piece = 'pawn';
+
+              if(currCoor.piece[0]=='w')
+                this.pieceService.piecesLosed.next(currCoor.piece);
             }
 
           }

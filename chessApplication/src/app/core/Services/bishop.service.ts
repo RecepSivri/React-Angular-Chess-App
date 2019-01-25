@@ -64,8 +64,7 @@ export class BishopService{
     var currCoor = stack.pop();
     var oldCoor = stack.pop();
 
-     if(currCoor.piece[0]=='w')
-       this.pieceService.piecesLosed.next(currCoor.piece);
+
 
     var x1 = currCoor.x;
     var y1 = currCoor.y;
@@ -91,6 +90,9 @@ export class BishopService{
 
         table[currCoor.y][currCoor.x].piece='bishop';
         table[oldCoor.y][oldCoor.x].piece='space';
+
+        if(currCoor.piece[0]=='w')
+          this.pieceService.piecesLosed.next(currCoor.piece);
       }
     }
 
@@ -108,6 +110,9 @@ export class BishopService{
 
         table[currCoor.y][currCoor.x].piece='bishop';
         table[oldCoor.y][oldCoor.x].piece='space';
+
+        if(currCoor.piece[0]=='w')
+          this.pieceService.piecesLosed.next(currCoor.piece);
       }
     }
     if(x1<x2 && y1>y2)
@@ -124,6 +129,9 @@ export class BishopService{
 
         table[currCoor.y][currCoor.x].piece='bishop';
         table[oldCoor.y][oldCoor.x].piece='space';
+
+        if(currCoor.piece[0]=='w')
+          this.pieceService.piecesLosed.next(currCoor.piece);
       }
     }
     if(x1>x2 && y1<y2)
@@ -140,6 +148,9 @@ export class BishopService{
 
         table[currCoor.y][currCoor.x].piece='bishop';
         table[oldCoor.y][oldCoor.x].piece='space';
+
+        if(currCoor.piece[0]=='w')
+          this.pieceService.piecesLosed.next(currCoor.piece);
       }
     }
 

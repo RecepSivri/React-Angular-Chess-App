@@ -54,14 +54,16 @@ export class KingService{
     var currCoor=stack.pop();
     var oldCoor=stack.pop();
 
-    if(currCoor.piece[0]=='w')
-      this.pieceService.piecesLosed.next(currCoor.piece);
+
 
     var distance=(currCoor.x-oldCoor.x)*(currCoor.x-oldCoor.x)+(currCoor.y-oldCoor.y)*(currCoor.y-oldCoor.y)
     if(distance<=2&&(table[currCoor.y][currCoor.x].piece[0]==='w'||table[currCoor.y][currCoor.x].piece[0]==='s'))
     {
       table[oldCoor.y][oldCoor.x].piece='space';
       table[currCoor.y][currCoor.x].piece = 'king';
+
+      if(currCoor.piece[0]=='w')
+        this.pieceService.piecesLosed.next(currCoor.piece);
     }
   }
 

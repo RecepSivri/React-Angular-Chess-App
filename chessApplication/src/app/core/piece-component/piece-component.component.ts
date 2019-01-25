@@ -1,12 +1,12 @@
 import {Component, EventEmitter, OnInit, Input, OnChanges} from '@angular/core';
 
-import {PawnService} from "../pawn.service";
-import {HorseService} from "../horse.service";
-import {RookService} from "../rook.service";
-import {BishopService} from "../bishop.service";
-import {QueenService} from "../queen.service";
-import {KingService} from "../king.service";
-import {PieceService} from "../piece.service";
+import {PawnService} from "../Services/pawn.service";
+import {HorseService} from "../Services/horse.service";
+import {RookService} from "../Services/rook.service";
+import {BishopService} from "../Services/bishop.service";
+import {QueenService} from "../Services/queen.service";
+import {KingService} from "../Services/king.service";
+import {PieceService} from "../Services/piece.service";
 
 @Component({
   selector: 'app-piece-component',

@@ -36,48 +36,63 @@ export class HorseService{
     var currCoor=stack.pop();
     var oldCoor=stack.pop();
 
-    if(currCoor.piece[0]=='w')
-      this.pieceService.piecesLosed.next(currCoor.piece);
+
     if(oldCoor.y-2===currCoor.y && oldCoor.x+1===currCoor.x&& (table[currCoor.y][currCoor.x].piece[0]==='w' || table[currCoor.y][currCoor.x].piece[0]==='s'))
     {
       table[oldCoor.y][oldCoor.x].piece='space';
       table[currCoor.y][currCoor.x].piece = 'horse';
+      if(currCoor.piece[0]=='w')
+        this.pieceService.piecesLosed.next(currCoor.piece);
     }
 
     if(oldCoor.y-1===currCoor.y && oldCoor.x+2===currCoor.x&& (table[currCoor.y][currCoor.x].piece[0]==='w' || table[currCoor.y][currCoor.x].piece[0]==='s'))
     {
       table[oldCoor.y][oldCoor.x].piece='space';
       table[currCoor.y][currCoor.x].piece = 'horse';
+      if(currCoor.piece[0]=='w')
+        this.pieceService.piecesLosed.next(currCoor.piece);
     }
     if(oldCoor.y+1===currCoor.y && oldCoor.x+2===currCoor.x&& (table[currCoor.y][currCoor.x].piece[0]==='w' || table[currCoor.y][currCoor.x].piece[0]==='s'))
     {
       table[oldCoor.y][oldCoor.x].piece='space';
       table[currCoor.y][currCoor.x].piece = 'horse';
+      if(currCoor.piece[0]=='w')
+        this.pieceService.piecesLosed.next(currCoor.piece);
     }
     if(oldCoor.y+2===currCoor.y && oldCoor.x+1===currCoor.x&& (table[currCoor.y][currCoor.x].piece[0]==='w' || table[currCoor.y][currCoor.x].piece[0]==='s'))
     {
       table[oldCoor.y][oldCoor.x].piece='space';
       table[currCoor.y][currCoor.x].piece = 'horse';
+      if(currCoor.piece[0]=='w')
+        this.pieceService.piecesLosed.next(currCoor.piece);
     }
     if(oldCoor.y+2===currCoor.y && oldCoor.x-1===currCoor.x&& (table[currCoor.y][currCoor.x].piece[0]==='w' || table[currCoor.y][currCoor.x].piece[0]==='s'))
     {
       table[oldCoor.y][oldCoor.x].piece='space';
       table[currCoor.y][currCoor.x].piece = 'horse';
+      if(currCoor.piece[0]=='w')
+        this.pieceService.piecesLosed.next(currCoor.piece);
     }
     if(oldCoor.y+1===currCoor.y && oldCoor.x-2===currCoor.x&& (table[currCoor.y][currCoor.x].piece[0]==='w' || table[currCoor.y][currCoor.x].piece[0]==='s'))
     {
       table[oldCoor.y][oldCoor.x].piece='space';
       table[currCoor.y][currCoor.x].piece = 'horse';
+      if(currCoor.piece[0]=='w')
+        this.pieceService.piecesLosed.next(currCoor.piece);
     }
     if(oldCoor.y-1===currCoor.y && oldCoor.x-2===currCoor.x&& (table[currCoor.y][currCoor.x].piece[0]==='w' || table[currCoor.y][currCoor.x].piece[0]==='s'))
     {
       table[oldCoor.y][oldCoor.x].piece='space';
       table[currCoor.y][currCoor.x].piece = 'horse';
+      if(currCoor.piece[0]=='w')
+        this.pieceService.piecesLosed.next(currCoor.piece);
     }
     if(oldCoor.y-2===currCoor.y && oldCoor.x-1===currCoor.x&& (table[currCoor.y][currCoor.x].piece[0]==='w' || table[currCoor.y][currCoor.x].piece[0]==='s'))
     {
       table[oldCoor.y][oldCoor.x].piece='space';
       table[currCoor.y][currCoor.x].piece = 'horse';
+      if(currCoor.piece[0]=='w')
+        this.pieceService.piecesLosed.next(currCoor.piece);
     }
 
   }

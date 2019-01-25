@@ -57,8 +57,7 @@ export class RookService{
     var currCoor=stack.pop();
     var oldCoor=stack.pop();
 
-    if(currCoor.piece[0]=='w')
-      this.pieceService.piecesLosed.next(currCoor.piece);
+
 
     if(currCoor.x===oldCoor.x)
     {
@@ -73,6 +72,9 @@ export class RookService{
           {
             table[currCoor.y][currCoor.x].piece='rook';
             table[oldCoor.y][oldCoor.x].piece='space';
+
+            if(currCoor.piece[0]=='w')
+              this.pieceService.piecesLosed.next(currCoor.piece);
           }
         }
       }
@@ -87,6 +89,9 @@ export class RookService{
           {
             table[currCoor.y][currCoor.x].piece='rook';
             table[oldCoor.y][oldCoor.x].piece='space';
+
+            if(currCoor.piece[0]=='w')
+              this.pieceService.piecesLosed.next(currCoor.piece);
           }
         }
       }
@@ -105,6 +110,9 @@ export class RookService{
           {
             table[currCoor.y][currCoor.x].piece='rook';
             table[oldCoor.y][oldCoor.x].piece='space';
+
+            if(currCoor.piece[0]=='w')
+              this.pieceService.piecesLosed.next(currCoor.piece);
           }
         }
       }
@@ -119,6 +127,9 @@ export class RookService{
           {
             table[currCoor.y][currCoor.x].piece='rook';
             table[oldCoor.y][oldCoor.x].piece='space';
+
+            if(currCoor.piece[0]=='w')
+              this.pieceService.piecesLosed.next(currCoor.piece);
           }
         }
       }

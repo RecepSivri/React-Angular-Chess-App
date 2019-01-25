@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {PieceService} from "../piece.service";
+import {PieceService} from "../Services/piece.service";
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @Component({
   selector: 'app-scores-board',
@@ -9,12 +10,16 @@ import {PieceService} from "../piece.service";
 export class ScoresBoardComponent implements OnInit {
 
   piecename=[]
+  piecename2=[]
   constructor(private pieceService: PieceService) { }
 
   ngOnInit() {
     this.pieceService.piecesLosed.subscribe(
       (name: string) => {
-        this.piecename.push(name);
+        if(this.piecename.length<8)
+          this.piecename.push(name);
+        else
+          this.piecename2.push(name);
       }
     );
   }

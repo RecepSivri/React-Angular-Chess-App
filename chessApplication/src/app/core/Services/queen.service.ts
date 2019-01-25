@@ -104,8 +104,7 @@ export class QueenService{
     var currCoor=stack.pop();
     var oldCoor=stack.pop();
 
-    if(currCoor.piece[0]=='w')
-      this.pieceService.piecesLosed.next(currCoor.piece);
+
 
     if(currCoor.x===oldCoor.x)
     {
@@ -120,6 +119,9 @@ export class QueenService{
 
             table[currCoor.y][currCoor.x].piece='queen';
             table[oldCoor.y][oldCoor.x].piece='space';
+
+          if(currCoor.piece[0]=='w')
+            this.pieceService.piecesLosed.next(currCoor.piece);
           }
         }
       }
@@ -134,6 +136,9 @@ export class QueenService{
           {
             table[currCoor.y][currCoor.x].piece='queen';
             table[oldCoor.y][oldCoor.x].piece='space';
+
+            if(currCoor.piece[0]=='w')
+              this.pieceService.piecesLosed.next(currCoor.piece);
           }
         }
       }
@@ -152,6 +157,9 @@ export class QueenService{
           {
             table[currCoor.y][currCoor.x].piece='queen';
             table[oldCoor.y][oldCoor.x].piece='space';
+
+            if(currCoor.piece[0]=='w')
+              this.pieceService.piecesLosed.next(currCoor.piece);
           }
         }
       }
@@ -166,6 +174,9 @@ export class QueenService{
           {
             table[currCoor.y][currCoor.x].piece='queen';
             table[oldCoor.y][oldCoor.x].piece='space';
+
+            if(currCoor.piece[0]=='w')
+              this.pieceService.piecesLosed.next(currCoor.piece);
           }
         }
       }
@@ -193,6 +204,9 @@ export class QueenService{
 
         table[currCoor.y][currCoor.x].piece='queen';
         table[oldCoor.y][oldCoor.x].piece='space';
+
+        if(currCoor.piece[0]=='w')
+          this.pieceService.piecesLosed.next(currCoor.piece);
       }
     }
 
@@ -210,6 +224,9 @@ export class QueenService{
 
         table[currCoor.y][currCoor.x].piece='queen';
         table[oldCoor.y][oldCoor.x].piece='space';
+
+        if(currCoor.piece[0]=='w')
+          this.pieceService.piecesLosed.next(currCoor.piece);
       }
     }
     if(x1<x2 && y1>y2)
@@ -226,6 +243,9 @@ export class QueenService{
 
         table[currCoor.y][currCoor.x].piece='queen';
         table[oldCoor.y][oldCoor.x].piece='space';
+
+        if(currCoor.piece[0]=='w')
+          this.pieceService.piecesLosed.next(currCoor.piece);
       }
     }
     if(x1>x2 && y1<y2)
@@ -242,6 +262,9 @@ export class QueenService{
 
         table[currCoor.y][currCoor.x].piece='queen';
         table[oldCoor.y][oldCoor.x].piece='space';
+
+        if(currCoor.piece[0]=='w')
+          this.pieceService.piecesLosed.next(currCoor.piece);
       }
     }
 
