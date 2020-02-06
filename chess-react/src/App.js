@@ -9,6 +9,49 @@ function App() {
   );
 }
 
+function Piece(props){
+    switch(props.value.piece) {
+        case 'rook':
+            return <button><img src = {require('./assets/pieces/rook.png')} style={props.value.inputStyle}></img></button>;
+        break;
+        case 'horse':
+            return <button><img src = {require('./assets/pieces/horse.png')} style={props.value.inputStyle}></img></button>;
+        break;
+        case 'bishop':
+            return <button><img src = {require('./assets/pieces/bishop.png')} style={props.value.inputStyle}></img></button>;
+        break;
+        case 'pawn':
+            return <button><img src = {require('./assets/pieces/pawn.png')} style={props.value.inputStyle}></img></button>;
+        break;
+        case 'king':
+            return <button><img src = {require('./assets/pieces/king.png')} style={props.value.inputStyle}></img></button>;
+        break;
+        case 'queen':
+            return <button><img src = {require('./assets/pieces/queen.png')} style={props.value.inputStyle}></img></button>;
+        break;
+
+        case 'wrook':
+            return <button><img src = {require('./assets/pieces/wrook.png')} style={props.value.inputStyle}></img></button>;
+            break;
+        case 'whorse':
+            return <button><img src = {require('./assets/pieces/whorse.png')} style={props.value.inputStyle}></img></button>;
+            break;
+        case 'wbishop':
+            return <button><img src = {require('./assets/pieces/wbishop.png')} style={props.value.inputStyle}></img></button>;
+            break;
+        case 'wpawn':
+            return <button><img src = {require('./assets/pieces/wpawn.png')} style={props.value.inputStyle}></img></button>;
+            break;
+        case 'wking':
+            return <button><img src = {require('./assets/pieces/wking.png')} style={props.value.inputStyle}></img></button>;
+            break;
+        case 'wqueen':
+            return <button><img src = {require('./assets/pieces/wqueen.png')} style={props.value.inputStyle}></img></button>;
+            break;
+        default:
+            return <button><img className="empty" style={props.value.inputStyle}></img></button>;
+    }
+}
 class Board extends React.Component {
 
     table: string[];
@@ -25,7 +68,7 @@ class Board extends React.Component {
                         }});
                 }else
                 if(i === 0 && j === 1){
-                    this.table[i].push({piece:'knight', inputStyle: {
+                    this.table[i].push({piece:'horse', inputStyle: {
                             width: "75px",
                             height: "75px",
                         }});
@@ -55,7 +98,7 @@ class Board extends React.Component {
                         }});
                 }else
                 if(i === 0 && j === 6){
-                    this.table[i].push({piece:'knight', inputStyle: {
+                    this.table[i].push({piece:'horse', inputStyle: {
                             width: "75px",
                             height: "75px",
                         }});
@@ -67,7 +110,7 @@ class Board extends React.Component {
                         }});
                 }else
                 if(i === 1){
-                    this.table[i].push({piece:'piece', inputStyle: {
+                    this.table[i].push({piece:'pawn', inputStyle: {
                             width: "75px",
                             height: "75px",
                         }});
@@ -80,19 +123,19 @@ class Board extends React.Component {
                         }});
                 }else
                 if(i === 7 && j === 7){
-                    this.table[i].push({piece:'wknight', inputStyle: {
+                    this.table[i].push({piece:'wrook', inputStyle: {
                             width: "75px",
                             height: "75px",
                         }});
                 }else
                 if(i === 7 && j === 6){
-                    this.table[i].push({piece:'wbishop', inputStyle: {
+                    this.table[i].push({piece:'whorse', inputStyle: {
                             width: "75px",
                             height: "75px",
                         }});
                 }else
                 if(i === 7 && j === 5){
-                    this.table[i].push({piece:'wking', inputStyle: {
+                    this.table[i].push({piece:'wbishop', inputStyle: {
                             width: "75px",
                             height: "75px",
                         }});
@@ -104,25 +147,25 @@ class Board extends React.Component {
                         }});
                 }else
                 if(i === 7 && j === 3){
-                    this.table[i].push({piece:'wbishop', inputStyle: {
+                    this.table[i].push({piece:'wking', inputStyle: {
                             width: "75px",
                             height: "75px",
                         }});
                 }else
                 if(i === 7 && j === 2){
-                    this.table[i].push({piece:'wknight', inputStyle: {
+                    this.table[i].push({piece:'wbishop', inputStyle: {
                             width: "75px",
                             height: "75px",
                         }});
                 }else
                 if(i === 7 && j === 1){
-                    this.table[i].push({piece:'wrook', inputStyle: {
+                    this.table[i].push({piece:'whorse', inputStyle: {
                         width: "75px",
                             height: "75px",
                     }});
                 }else
                 if(i === 6){
-                    this.table[i].push({piece:'wpiece', inputStyle: {
+                    this.table[i].push({piece:'wpawn', inputStyle: {
                             width: "75px",
                             height: "75px",
                         }});
@@ -154,7 +197,8 @@ class Board extends React.Component {
                             alignItems="center"
                         >
                             {table.map((elems,j) =>
-                                    <button  style={elems.inputStyle} id={i*8+j}>{elems.piece}</button>
+                            <Piece value={elems}></Piece>
+
                             )}
                         </Grid>
                     </Grid>
