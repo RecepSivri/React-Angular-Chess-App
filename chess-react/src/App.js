@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
-import Grid from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid'
+var move = require('./Util.js').move;
 function App() {
+
   return (
     <div className="App">
       <Board></Board>
@@ -10,54 +12,65 @@ function App() {
 }
 
 function Piece(props){
+
+
     switch(props.value.piece) {
         case 'rook':
-            return <button><img src = {require('./assets/pieces/rook.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/rook.png')}></img></button>;
         break;
         case 'horse':
-            return <button><img src = {require('./assets/pieces/horse.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/horse.png')}></img></button>;
         break;
         case 'bishop':
-            return <button><img src = {require('./assets/pieces/bishop.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/bishop.png')}></img></button>;
         break;
         case 'pawn':
-            return <button><img src = {require('./assets/pieces/pawn.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/pawn.png')}></img></button>;
         break;
         case 'king':
-            return <button><img src = {require('./assets/pieces/king.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/king.png')}></img></button>;
         break;
         case 'queen':
-            return <button><img src = {require('./assets/pieces/queen.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/queen.png')} ></img></button>;
         break;
 
         case 'wrook':
-            return <button><img src = {require('./assets/pieces/wrook.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img style = {{width: "50px", height: "50px"}} src = {require('./assets/pieces/wrook.png')} ></img></button>;
             break;
         case 'whorse':
-            return <button><img src = {require('./assets/pieces/whorse.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/whorse.png')}></img></button>;
             break;
         case 'wbishop':
-            return <button><img src = {require('./assets/pieces/wbishop.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/wbishop.png')} s></img></button>;
             break;
         case 'wpawn':
-            return <button><img src = {require('./assets/pieces/wpawn.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/wpawn.png')} ></img></button>;
             break;
         case 'wking':
-            return <button><img src = {require('./assets/pieces/wking.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/wking.png')} ></img></button>;
             break;
         case 'wqueen':
-            return <button><img src = {require('./assets/pieces/wqueen.png')} style={props.value.inputStyle}></img></button>;
+            return <button onClick={props.onClick} style={props.value.inputStyle}><img src = {require('./assets/pieces/wqueen.png')} ></img></button>;
             break;
         default:
-            return <button><img className="empty" style={props.value.inputStyle}></img></button>;
+            return <button style={props.value.inputStyle} onClick={props.onClick}><img className="empty"></img></button>;
     }
 }
 class Board extends React.Component {
 
+
+    componentDidMount(){
+
+    }
+    stack = [];
+    flagStack = [];
     table: string[];
     constructor(){
         super();
         this.table = [];
+        this.state = {
+            index: null
+        };
         for(let  i = 0; i < 8; ++i){
             this.table.push([])
             for(let  j = 0; j < 8; ++j){
@@ -183,6 +196,7 @@ class Board extends React.Component {
     render(){
         return (
             <div className="App">
+                <div> value = {this.state.index !== null ?  this.table[this.state.index.y][this.state.index.x].piece : '?'} </div>
                 {this.table.map((table,i) =>
                     <Grid
                         container
@@ -197,7 +211,7 @@ class Board extends React.Component {
                             alignItems="center"
                         >
                             {table.map((elems,j) =>
-                            <Piece value={elems}></Piece>
+                            <Piece value={elems} onClick={() => this.handleClick(j,i)}></Piece>
 
                             )}
                         </Grid>
@@ -210,8 +224,11 @@ class Board extends React.Component {
 
 
 
+
     handleClick(x,y){
-        window.alert(x + ',' + y);
+        this.setState({index: {x:x,y:y}});
+             move(y,x,this.table,this.stack,this.flagStack);
+
     }
 }
 

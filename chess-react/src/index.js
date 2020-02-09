@@ -10,3 +10,11 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+let scripts = [
+    { src: "./assets/scripts/Util.js" },
+]
+scripts.map(item => {
+    const script = document.createElement("script")
+    script.src = item.src
+    document.body.appendChild(script)
+})
